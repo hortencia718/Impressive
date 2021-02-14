@@ -1,0 +1,119 @@
+body{
+  background-color: grey;
+}
+
+
+
+h1{
+ font-family: 'Dosis', sans-serif; 
+ margin: 0;
+ padding:0;
+ 
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(236, 196, 62);
+  border-block-end-width: 5px;
+  word-spacing: 5px;
+  
+}
+
+.photo{
+  https://images.app.goo.gl/tAMfngLFEiaX7PTf8
+}
+
+
+.circle-with-text {
+  width: 100px;
+  height: 90px;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 108px;
+  color: #fff;
+  font-family: 'Dosis';
+  display: flex;
+  /* text-align: center; */
+  background:black;
+   margin: 40px; 
+  padding: 52px;
+  /* position:relative; */
+
+}
+
+ h3{
+  color:rgb(255, 255, 255);
+  font-family: 'Dosis';
+  font-size: 40px;
+  background-color: black; 
+  border: 60px solid black;  
+ } 
+
+
+.opennav{
+  position: center;
+}
+ .navbar{
+  position: absolute;
+  top:0;
+  right:0;
+  width: 100%;
+  margin-top: 50px;
+} 
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(36, 33, 33, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #ebc752;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #d4d1c9;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 50x;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+
+p{
+  font-family: 'Dosis';
+  color:rgb(61, 58, 82);
+  text-align: center;
+}
